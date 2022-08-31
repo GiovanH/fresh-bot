@@ -94,7 +94,7 @@ export async function run() {
         }
 
         const commentParams = commentUrlParamsRegex.exec(subjectUrl);
-        console.debug(
+        console.log(
             "Extracting groups", commentParams,
             "from url", subjectUrl,
             "using regex", commentUrlParamsRegex
